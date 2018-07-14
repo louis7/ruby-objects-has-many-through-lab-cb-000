@@ -1,3 +1,6 @@
+require "pry"
+
+
 class Genre
 attr_accessor :name
 @@all = []
@@ -22,6 +25,7 @@ end
 def artists
 songs.select do |song|
   song.artist
+  
 end
 
 end
