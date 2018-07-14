@@ -25,7 +25,7 @@ end
 def artists
 songs.select do |song|
   song.artist
-  
+  binding.pry
 end
 
 end
