@@ -21,14 +21,10 @@ def songs
 end
 
 def genres
-@newgenres = Song.all.collect do |song|
-  if song.genre == self
-     song.genre
-end
-
-end
-return @newgenres
-end
+      self.songs.collect do|song|
+        song.genre
+      end
+    end
 
 
 
