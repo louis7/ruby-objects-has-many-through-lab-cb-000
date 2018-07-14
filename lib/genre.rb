@@ -22,7 +22,6 @@ end
 def artists
 @@all.select do |song|
   song.artist
-
 end
 
 end
