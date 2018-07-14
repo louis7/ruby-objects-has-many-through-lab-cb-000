@@ -27,7 +27,6 @@ songs.map do |song|
   song.artist.name
 
 end
-binding.pry
 
 end
 
