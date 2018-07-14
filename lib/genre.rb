@@ -23,10 +23,7 @@ def songs
 end
 
 def artists
-songs.select do |song|
-  song.artist.name
-end
-
+songs.select {|song|song.artist.name}
 end
 
 
