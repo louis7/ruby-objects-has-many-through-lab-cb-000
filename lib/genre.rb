@@ -20,8 +20,8 @@ def songs
 end
 
 def artists
-@@all.select do |song|
-  songs.artist
+songs.select do |song|
+  song.artist
 end
 
 end
