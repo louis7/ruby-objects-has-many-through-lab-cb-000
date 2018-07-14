@@ -20,8 +20,8 @@ def songs
 end
 
 def artists
-Song.all.select do |song|
-  song.genre == self
+@@all.select do |song|
+  song.artist
 
 end
 
