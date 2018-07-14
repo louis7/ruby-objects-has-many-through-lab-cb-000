@@ -23,7 +23,7 @@ def songs
 end
 
 def artists
-songs.map do |song|
+songs.each do |song|
   song.artist.name
 
 end
