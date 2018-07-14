@@ -24,7 +24,8 @@ end
 
 def artists
 songs.select do |song|
-  song.artist.name
+  song.artist
+  
 end
 end
 
