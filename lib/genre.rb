@@ -25,6 +25,7 @@ end
 def artists
 songs.map do |song|
   song.artist.name
+  binding.pry
 
 end
 end
