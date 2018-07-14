@@ -23,8 +23,8 @@ def songs
 end
 
 def artists
-songs.select do |song|
-  song
+songs.map do |song|
+  song.artist.name
   binding.pry
 
 end
