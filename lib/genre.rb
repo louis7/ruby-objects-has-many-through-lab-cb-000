@@ -23,8 +23,9 @@ def songs
 end
 
 def artists
-songs.select {|song|song.artist.name}
-binding.pry
+songs.select do |song|
+  song.artist.name
+end
 end
 
 
